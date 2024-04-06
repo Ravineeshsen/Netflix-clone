@@ -8,7 +8,7 @@ function Navbar() {
 
             <img  className='h-[150px] ' src={Logo} />
             <div>
-                <select className='border py-2 rounded px-5'>
+                <select className='border py-2 rounded px-5 bg-transparent text-zinc-50'>
                    <option> English</option>
                    <option>Himdi </option>
                 </select> 
