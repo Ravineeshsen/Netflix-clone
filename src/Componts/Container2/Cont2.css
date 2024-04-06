@@ -1,0 +1,23 @@
+.second-con{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: azure;
+    margin-top: 0.5rem;
+}
+.heading{
+    font-size: 3.555rem;
+    align-items: center;
+    margin-top: 10rem;
+    padding-left: 10rem;
+    
+}
+.smart-TVs{
+    font-size: 1.5rem;
+    padding-left: 10rem;
+    margin-top: 1rem;
+
+}
+.assets{
+   padding-right: 8rem;
+}

@@ -1,0 +1,34 @@
+.Container5 {
+   background-color: black;
+   color: aliceblue;
+   height: 100%;
+   width: 100%;
+   margin-top: 0.5rem;
+   font-size: 3rem;
+   text-align: center;
+   padding-top: 2.555rem;
+}
+
+.Question {
+   font-size: 1.3rem;
+   height: 10vh;
+   width: 65%;
+   background-color: rgb(72, 71, 71);
+   padding-right: 40rem;
+   margin-left: 15rem;
+   margin-top: 1rem;
+   padding-top: 1.5rem;
+   padding-left: 1rem;
+   justify-content: space-between;
+   display: flex;
+   text-align: center;
+
+
+
+}
+
+.icon {
+   padding-right: 5rem;
+
+
+}

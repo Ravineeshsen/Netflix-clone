@@ -1,0 +1,77 @@
+
+.img{
+    background-image: url('https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg');
+    /* filter:brightness(30%) */
+   /* filter: invert(10%); */
+   /* color: aliceblue; */
+}
+.show{
+   color: white;
+    font-size: 2.888rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10rem;
+   
+    
+}
+.paragraph{
+   color: white;
+    /* margin: 1rem 0 0; */
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+   
+
+}
+.Emailaddress{
+    font-size: 1.3rem;
+    color: black;
+   margin-left: 30rem;
+   margin-top: 2rem;
+   padding: 1rem;
+   height: 3rem;
+   width: 20rem;
+  border-radius: 0.2rem;
+   transform: none;
+
+}
+.GetStarted{
+    color: aliceblue;
+    font-size: 1.5rem;
+    background-color: rgb(226, 39, 39);
+    height: 3rem;
+    width: 12rem;
+    padding-right: 1rem;
+   margin-left: 0.5rem; 
+   border-radius: 0.2rem;
+
+}.fa-solid{
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+.main-con{
+    background-color: rgb(59, 59, 59);
+
+}
+
+
+.stranger{
+    border: 1px solid #fff;
+    /* margin-bottom: -5rem; */
+    /* margin-top: -5rem; */
+    padding-top: 2rem;
+   padding-left: 6rem;
+   font-size: 1.5rem;
+    height: 15vh;
+    width: 25vw;
+    margin-left: 13rem;
+    border-radius: 0.5rem;
+}
+
+.thrid-con{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: azure;
+    margin-top: 0.5rem;
+}
