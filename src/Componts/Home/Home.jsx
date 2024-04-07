@@ -11,6 +11,7 @@ import Footer from '../Footer/Footer';
 function Home() {
   return (
     <>
+    <div className='main-con'>
       <div className='img h-[100vh] w-full bg-no-repat bg-cover bg-center'>
         <Navbar />
         <div>
@@ -19,12 +20,12 @@ function Home() {
           <p className='paragraph'>Ready to watch? Enter your email to create or restart your membership.</p>
         </div>
         <div>
-          <input className='Emailaddress border py-2 rounded text-zinc-50 bg-transparent' type='email' autoComplete="email" minLength="5" placeholder='Email address' />
+          <input className='Emailaddress border py-2 rounded  bg-transparent text-white' type='email' autoComplete="email" minLength="5" placeholder='Email address' />
           <button className='GetStarted'>Get Started<i className="fa-solid fa-greater-than"></i></button>
         </div>
       </div>
 
-      <div className='main-con'>
+      
         <Container1/>
         <Container2 />
         <Container3 />
