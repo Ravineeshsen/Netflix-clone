@@ -4,31 +4,32 @@
     /* filter:brightness(30%) */
    /* filter: invert(10%); */
    /* color: aliceblue; */
+   height: 80vh;
 }
 .show{
    color: white;
-    font-size: 2.888rem;
-    font-weight: 700;
+    /* font-size: 2.888rem; */
+    /* font-weight: 700; */
     text-align: center;
-    margin-top: 10rem;
+    /* margin-top: 10rem; */
    
     
 }
 .paragraph{
    color: white;
     /* margin: 1rem 0 0; */
-    font-size: 1.4rem;
+    /* font-size: 1.4rem; */
     font-weight: 400;
     text-align: center;
    
 
 }
 .Emailaddress{
-    font-size: 1.3rem;
+    font-size: 1rem;
    margin-left: 30rem;
    margin-top: 2rem;
    padding: 1rem;
-   height: 3rem;
+   height: 2.9rem;
    width: 20rem;
   border-radius: 0.2rem;
    transform: none;
@@ -36,7 +37,7 @@
 }
 .GetStarted{
     color: aliceblue;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background-color: rgb(226, 39, 39);
     height: 3rem;
     width: 12rem;

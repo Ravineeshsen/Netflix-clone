@@ -10,30 +10,28 @@ import Footer from '../Footer/Footer';
 
 function Home() {
   return (
-    <>
     <div className='main-con'>
-      <div className='img h-[100vh] w-full bg-no-repat bg-cover bg-center'>
+      <div className='img h-[100vh] w-full bg-no-repeat bg-cover bg-center'>
         <Navbar />
+        
         <div>
-          <h1 className='show'><b>Unlimited movies, TV shows and more</b></h1>
-          <p className='paragraph'>Watch anywhere. Cancel anytime.</p>
-          <p className='paragraph'>Ready to watch? Enter your email to create or restart your membership.</p>
+          <h1 className='show text-[3rem] mt-[8rem]'><b>Unlimited movies, TV shows and more</b></h1>
+          <p className='paragraph text-[1.5rem] mt-1'>Watch anywhere. Cancel anytime.</p>
+          <p className='paragraph text-[1.2rem]'>Ready to watch? Enter your email to create or restart your membership.</p>
         </div>
         <div>
-          <input className='Emailaddress border py-2 rounded  bg-transparent text-white' type='email' autoComplete="email" minLength="5" placeholder='Email address' />
-          <button className='GetStarted'>Get Started<i className="fa-solid fa-greater-than"></i></button>
+          <input className='Emailaddress border py-2 rounded bg-transparent text-white' type='email' autoComplete="email" minLength="5" placeholder='Email address' />
+          <button className='bg-[rgb(229,9,20)] text-white h-[2.9rem] w-[12rem] rounded mt-[1rem] mx-4 text-2xl font-extrabold'>Get Started  <i className="fa-solid fa-chevron-right"></i></button>
         </div>
       </div>
 
-      
-        <Container1/>
-        <Container2 />
-        <Container3 />
-        <Container4/> 
-        <Container5 />
-        <Footer/>
-      </div>
-    </>
+      <Container1/>
+      <Container2 />
+      <Container3 />
+      <Container4/> 
+      <Container5 />
+      <Footer/>
+    </div>
   );
 }
 

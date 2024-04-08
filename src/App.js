@@ -1,14 +1,17 @@
 
 import './App.css';
 import Home from './Componts/Home/Home';
-import Navbar from './Componts/Navbar/Navbar';
+import { Route, Routes } from 'react-router-dom';
+
+import Netfilxsign from './Componts/Netflixsign/Netfilxsign';
+
 
 
 function App() {
   return (
     <>
-    
-   <Home/>
+      <Home />
+      
     </>
   );
 }
