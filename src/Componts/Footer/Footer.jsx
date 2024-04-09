@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import Innerhome from '../Innercomp/Innerhome/Innerhome'
 
 function Footer() {
   return (
@@ -13,11 +15,12 @@ function Footer() {
                         <li className='pb-5'><a href="">Investor Relations</a></li>
                         <li className='pb-5'><a href="">Privacy</a></li>
                         <li className='pb-5'><a href="">Speed Test</a></li>
-                        <li ><a href=""><select className='bg-transparent outline-none bg-[#111112] text-white h-8 w-28 border border-gray-700 rounded mx-4' name="" id="">
+                        <li ><a href=""><select className='bg-transparent  outline-none bg-[#111112] text-white h-8 w-28 border border-gray-700 rounded mx-4' name="" id="">
                             <option value="English">English</option>
                             <option value="Hindi">Hindi</option>
                         </select></a></li>
-                        <li></li>
+                        
+
                     </ul>
 
                     <ul className='text-white text-sm pt-6 px-6  '>
@@ -44,7 +47,16 @@ function Footer() {
 
 
                     </ul>
+                    
+
                 </div>
+      {/* <div className='absolute mt-[-2rem] '>
+       <Link to={'Innerhome'}>
+      <button className='bg-rose-600 h-9 p py-2 rounded px-5 text-white ml-[15.5rem] pb-3 ' >Show More</button>
+</Link> 
+      </div> */}
+      
+
       </div>
   )
 }
