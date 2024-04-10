@@ -34,7 +34,7 @@ function Movies() {
         },
     ]
     return (
-        <div className='h-[70%] w-full px-20 py-5 grid  grid-cols-3 gap-5 bg-slate-600'>
+        <div className='h-[70%] w-full px-20 py-5 gap-x-5 grid  grid-cols-3 gap-5 bg-slate-600'>
             {Data .slice(0,6).map((Value) =>
                 <div className=' h-96 w-96 border-2 border-black text-black rounded relative'>
                {/* <h1 className='text-white text-2xl bottom-10 font-bold rounded absolute pl-4 h-[2.3rem] w-[10rem] bg-red-400 left-[7rem] hover:bg-stone-600'>{ Value.Name }</h1> */}

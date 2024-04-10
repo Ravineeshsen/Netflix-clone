@@ -16,7 +16,7 @@ const Container6 = () => {
     }
 
     return (
-        <div className=' bg-black h-[130vh] border-y-8 border-gray-800  pt-[4.7rem] flex justify-center'>
+        <div className='overflow-y-auto bg-black h-[110vh] border-y-8 border-gray-800  pt-[2.7rem] flex justify-center  '>
             <div className=''>
                 <h1 className='text-white font-bold text-4xl pl-[15rem] '>Frequently Asked Questions</h1>
 
@@ -115,7 +115,7 @@ const Container6 = () => {
                 <h3 className='text-white text-lg pl-[13rem] pt-[2rem]'>Ready to watch? Enter your email to create or restart your membership.</h3>
                 <div className='flex justify-center'>
                     <input className='bg-transparent text-white bg-[#292827] rounded font-normal border h-[7vh] w-[18vw] border-white pl-2 mt-[1rem]' type="text" placeholder='Email address' />
-                    <button className='bg-[rgb(229,9,20)] text-white h-[7vh] w-[12vw] rounded mt-[1rem] mx-4 text-2xl font-extrabold'>Get Started  <i class="fa-solid fa-chevron-right"></i></button>
+                    <button className= ' bg-[rgb(229,9,20)] text-white h-[7vh] w-[12vw] rounded mt-[1rem] mx-4 text-2xl font-extrabold'>Get Started  <i class="fa-solid fa-chevron-right"></i></button>
                 </div>
             </div>
         </div>

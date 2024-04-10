@@ -11,22 +11,14 @@ const Navbar=()=> {
 
   const handleLogin = () => {
       const CLIENT_ID = '746930267944-8k7et1lm3lnm8nacl4fjpren9qg7r8e9.apps.googleusercontent.com';
-      const REDIRECT_URI = 'http://localhost:3000/inbox'; // Redirect URI configured in Google Developers Console
+      const REDIRECT_URI = 'http://localhost:3000/inbox'; 
       const SCOPE = 'https://mail.google.com/'
       const AUTH_URL = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&scope=${SCOPE}&response_type=token`;
 
       window.location.href = AUTH_URL;
   };
 
-  const getAccessToken = ()=>{
-    const url =window.location.href
-    const token = url.match(/access_token=([^&]+)/)
-    localStorage.setItem("Token",token && token[1])
-  }
-
-  useEffect(()=>{
-    getAccessToken()
-  },[])
+  
 
 
     return (
